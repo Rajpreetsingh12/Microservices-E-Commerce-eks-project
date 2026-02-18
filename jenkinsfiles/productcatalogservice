@@ -34,7 +34,7 @@ pipeline {
                     docker tag productcatalogservice:latest 038184794663.dkr.ecr.us-east-1.amazonaws.com/productcatalogservice:${BUILD_NUMBER}
 
                     #Run the following command to push this image to your newly created AWS repository:
-                    docker push 242201296943.dkr.ecr.us-east-1.amazonaws.com/productcatalogservice:${BUILD_NUMBER}
+                    docker push 038184794663.dkr.ecr.us-east-1.amazonaws.com/productcatalogservice:${BUILD_NUMBER}
                     '''
                 }
             }
